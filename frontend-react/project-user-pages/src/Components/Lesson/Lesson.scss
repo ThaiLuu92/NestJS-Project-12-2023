@@ -1,0 +1,9 @@
+.lesson-item {
+    flex-direction: row !important;
+    gap: 10px;
+    display: flex;
+
+    input {
+        width: 10px !important;
+    }
+}

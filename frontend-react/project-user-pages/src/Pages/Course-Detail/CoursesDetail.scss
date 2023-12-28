@@ -1,0 +1,407 @@
+/* CSS CHUNG */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
+}
+a {
+  text-decoration: none;
+}
+P {
+  margin: 0;
+}
+ul {
+  margin-bottom: 0;
+}
+
+li {
+  list-style-type: none;
+}
+/* CSS FONT */
+.p-3{
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-weight: 700;
+}
+
+.p-4{
+  font-size: 21px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0!important;
+}
+
+
+
+/* CSS MAIN COURSES JLPT N5 */
+
+/* CSS MENU */
+.courses-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  width: 100%;
+  background-color: #333;
+}
+.courses-menu-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+// .courses-price-link {
+//   display: flex;
+//   justify-content: center;
+//   padding: 5px;
+//   background-color: white;
+//   padding-left: 30px;
+//   border-radius: 8px ;
+//   color: #333;
+// }
+
+.courses-menu-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+
+.p-4-courses-link {
+  padding: 12px 24px;
+  background-color: #77aefb;
+  border-radius: 28px;
+  border: 3px solid white;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.p-4-courses-try {
+  padding: 12px 24px;
+  background-color: white;
+  border-radius: 28px;
+  border: 3px solid white;
+  color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+
+/* CSS COURES CONTENT */
+
+.course-detail-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 0;
+}
+.course-content-img {
+   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ 
+ padding: 0 20px;
+}
+.course-content-img img {
+width: 600px;
+}
+.course-board-infor {
+  flex: 0.55;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.board-title {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+  width: 100%;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.board-name,
+.board-expired
+{
+  width: 100%;
+  text-align: center;
+  background-color: #77aefb ;
+
+}
+.board-name {
+  font-size: 55px;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  border-bottom: 1px dashed #333;
+}
+.board-name span {
+ font-size: 39px;
+}
+
+.board-expired {
+  font-size: 28px;
+  font-weight: 400;
+  padding: 20px 0;
+}
+
+.board-price {
+  font-size: 41px;
+  font-weight: 700;
+  padding: 20px 0;
+}
+.board-price span {
+  font-size: 31px;
+  font-weight: 300;
+  position: relative;
+  top: -10px;
+  left: -5px;
+}
+.board-btn {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding: 20px 0;
+}
+.board-btn-ntv {
+  color: white;
+  background-color: #2D6DB5;
+  border: none;
+  padding: 15px 40px;
+  border-radius: 30px;
+  font-size: 18px;
+  font-weight: 500;
+  box-shadow: rgba(85, 82, 82, 0.05) 5px 5px, rgba(85, 82, 82, 0.3) 10px 10px,
+    rgba(85, 82, 82, 0.2) 15px 15px, rgba(85, 82, 82, 0.1) 20px 20px,
+    rgba(85, 82, 82, 0.05) 25px 25px;
+}
+
+.board-btn-ntv:hover{
+  box-shadow: none;
+  border: 3px solid gainsboro;
+  background-color: #1b4c84;
+}
+.board-btn-buy {
+  color: white;
+  background-color: #E9493D;
+  border: none;
+  padding: 15px 40px;
+  border-radius: 30px;
+  font-size: 18px;
+  font-weight: 500;
+  box-shadow: rgba(85, 82, 82, 0.05) 5px 5px, rgba(85, 82, 82, 0.3) 10px 10px,
+    rgba(85, 82, 82, 0.2) 15px 15px, rgba(85, 82, 82, 0.1) 20px 20px,
+    rgba(85, 82, 82, 0.05) 25px 25px;
+}
+
+.board-btn-buy:hover {
+  box-shadow: none;
+  border: 3px solid gainsboro;
+  background-color: rgb(177, 14, 14);
+}
+
+
+/* CSS COURES ROUTE */
+.course-route-bg {
+background-color: #F5F5F5;
+padding: 50px 0;
+}
+.course-route-title {
+  font-size: 33px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.coure-route-bg{
+  background-color: white;
+  padding: 70px 50px;
+  border-radius: 20px ;
+  border: 1px solid #333;
+}
+.course-route-content {
+  display: flex;
+  background-color:#C7E1FF;
+  padding: 20px 40px;
+  gap: 10px;
+  border-radius: 10px;
+}
+
+.course-route-content > * {
+  flex: 0.333;
+}
+
+.course-route-content .route-sub {
+  font-size: 25px;
+  font-weight: 600;
+  color: #1474FC;
+  margin-bottom: 10px;
+}
+.route-descripton li {
+  list-style: disc;
+  line-height: 1.61;
+  list-style-position: inside;
+  font-size: 21px;
+  font-weight: 400;
+}
+
+/* CSS COURSE EXTENT */
+.course-extent {
+  padding: 50px 0;
+}
+.course-extent-title {
+  font-size: 33px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.extent-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 50px 0;
+}
+#item-bg-yellow {
+background-color: #FFE179;
+}
+#item-bg-green {
+background-color: #D8EDB9;
+}
+
+#item-bg-blue {
+  background-color:#C7E1FF;
+  }
+
+
+
+.extent-item  .extent-item-bg {
+  padding: 50px;
+  background-color: #accefd;
+  border-radius: 50%;
+  text-align: center;
+  border: 1px dashed #333;
+}
+
+.extent-item  .extent-item-sub{
+width: 216px;
+height: 216px;
+font-size: 18px;
+font-weight: 700;
+display: flex;
+align-items: center;
+}
+
+
+/* CSS Nội dung trong Modal */
+
+.required::before {
+  content: "*";
+  color: red;
+  margin-right: 4px;
+
+
+}
+
+
+/* CSS MODAL */
+
+.modal-content {
+  border: 10px solid #77aefb;
+  
+}
+.modal-header {
+  background-color: #77aefb;
+  border-radius: 0;
+}
+
+
+.card-course-content {
+  text-align: center;
+  border-radius: 5px;
+  border: 7px solid #77aefb;
+  margin: 0 30px;
+  overflow: hidden;
+}
+
+.card-course-title .modal-title {
+  margin: 30px 30px 0 30px;
+}
+
+.card-course-content .course-name {
+  padding: 50px 10px;
+  background-color: #77aefb;
+  font-size: 30px;
+  font-weight: 600;
+  margin: 30px 30px 0 30px;
+
+}
+
+.course-detail {
+  margin: 30px 30px 0 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+
+}
+.course-detail > * {
+  font-size: 18px;
+
+}
+
+.course-discount-code {
+  display: flex;
+  margin: 30px;
+  text-align: left;
+  justify-content: space-between;
+}
+
+.course-discount-code input {
+  padding: 5px;
+  border-radius: 5px;
+  border: 0.5px solid #77aefb;
+  
+}
+
+.course-discount-code button {
+  padding: 5px 25px;
+  border: none;
+  border-radius: 7px ;
+  background-color: #77aefb;
+  color: white;
+ 
+}
+
+.total-payment {
+  border-top: 1px solid #77aefb;
+  padding-top: 30px;
+  margin: 30px;
+  display: flex;
+  justify-content: space-between;
+  color: #E9493D;
+  font-weight: 600;
+}
+
+
+
+
+.modal-payment-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 20px;
+  position: relative;
+  bottom: -50px;
+  right: 0;
+
+}
+
+
+
+

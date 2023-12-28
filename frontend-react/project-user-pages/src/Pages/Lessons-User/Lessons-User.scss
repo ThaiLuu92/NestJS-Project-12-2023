@@ -1,0 +1,257 @@
+/* CSS CHUNG */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  p {
+    margin: 0;
+  }
+  
+  ul {
+    margin-bottom: 0;
+  }
+  
+  li {
+    list-style-type: none;
+  }
+  
+  /* CSS FONT */
+  .p-3 {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    font-weight: 700;
+  }
+  
+  .p-4 {
+    font-size: 21px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0 !important;
+  }
+  
+  h4 {
+    margin-bottom: 0;
+  }
+  
+  /* CSS MENU */
+  .courses-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    width: 100%;
+    background-color: #77aefb;
+  }
+  
+  .courses-menu-price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+  }
+  
+  .courses-price-link {
+    background-color: white;
+    padding-left: 30px;
+    border-radius: 8px;
+    color: #333;
+  }
+  
+  .courses-price-link > i {
+    background-color: #fb6d3a;
+    padding: 15px 20px 15px 15px;
+    height: 100%;
+    text-align: center;
+    font-size: 21px;
+    border-radius: 0 8px 8px 0;
+  }
+  
+  .courses-menu-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+  }
+  
+  .p-4-courses-link {
+    padding: 12px 24px;
+    background-color: #77aefb;
+    border-radius: 28px;
+    border: 3px solid white;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    box-shadow: rgba(85, 82, 82, 0.05) 5px 5px, rgba(85, 82, 82, 0.3) 10px 10px,
+      rgba(85, 82, 82, 0.2) 15px 15px, rgba(85, 82, 82, 0.1) 20px 20px,
+      rgba(85, 82, 82, 0.05) 25px 25px;
+  }
+  
+  .p-4-courses-link:hover {
+    box-shadow: none;
+    color: #333;
+    border: 3px solid #333;
+  }
+  
+  .p-4-courses-try {
+    padding: 12px 24px;
+    background-color: white;
+    border-radius: 28px;
+    border: 3px solid white;
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+  }
+  
+  #course-menu {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 30px;
+    background-color: #f5f5f5;
+  }
+  
+  #course-menu .lesson {
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 100px;
+  }
+  
+  #course-menu .lesson-exam {
+    margin: 50px 0;
+  }
+  
+  .progress-container {
+    margin: 50px 30px;
+    border: 1px solid #77aefb;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .total-circlebar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #77aefb;
+    text-align: center;
+    align-items: center;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .total-circlebar > h4 {
+    margin-left: 20px;
+    padding: 15px 0;
+  }
+  
+  .percentage {
+    background-color: #4a95fe;
+  }
+  
+  .percentage > h4 {
+    padding: 15px 30px;
+    color: white;
+    text-align: center;
+  }
+  
+  .stage-bar {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+  }
+  
+  .list-lesson {
+    margin: 50px 30px;
+    border: 1px solid #77aefb;
+    border-radius: 5px;
+  }
+  
+  .list-lesson .list-lesson-title {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  
+  .list-lesson > * {
+    padding: 15px;
+  }
+  
+  .list-lesson-title > h4 {
+    display: flex;
+    justify-content: center;
+    background-color: #77aefb;
+    padding: 10px 5px;
+    border-radius: 10px;
+  }
+  
+  .lesson-title-name {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #77aefb;
+    padding: 10px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .lesson-title-name:hover {
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+  }
+  .complete-color {
+    background-color: #d8edb9; /* hoặc màu sắc tương ứng cho trạng thái complete */
+  }
+  
+  .processing-color {
+     background-color: #ffe179; /* hoặc màu sắc tương ứng cho trạng thái processing */
+  }
+  
+  .uncompleted-color {
+    background-color: #d9dbdb;
+  }
+  .selected-lesson {
+    // background-color: #3498db; /* Màu nền khi được chọn */
+    // color: #fff; /* Màu chữ khi được chọn */
+    // font-weight: bold; /* Độ đậm của chữ khi được chọn */
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    
+  }
+  
+  .lesson-title {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  iframe {
+    width: 100%;
+    height: 500px;
+  }
+  
+  .lesson-title > button {
+    border: 1px solid #333;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 35px;
+    background-color: #e9493d;
+    font-weight: 600;
+    font-size: 20px;
+    box-shadow: rgba(85, 82, 82, 0.05) 5px 5px, rgba(85, 82, 82, 0.3) 10px 
+  }  
+
+  .lesson-title > button:hover{
+
+    box-shadow:none;
+    border: 2px solid rgb(171, 168, 168) ;
+    color: rgb(171, 168, 168);
+  }

@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.watchword {
+  margin: 50px 0;
+  .watchword-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    .button-home {
+      display: flex;
+      gap: 10px;
+    }
+  }
+  .watchword-img {
+    background-image: url("https://thanhgiang.net/wp-content/uploads/2019/01/hoc-tieng-nhat-moi-ngay.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+.course-self-learning {
+  
+  background-color: #f5f5f5;
+  .course-self-learning-gird{
+    display: flex;
+    flex-direction: row;
+    padding: 90px 0;
+    .course-images{
+      width: 300px;
+      height: 250px;
+      background-image: url("https://www.jpns.kec.ne.jp/blog/wp-content/uploads/2020/07/online_school_boy.png");
+      background-size: cover;
+      background-position: center;
+      box-shadow: 0 0px 40px rgba(177, 229, 248, 0.7);
+      transition: transform 0.3s;
+      border-radius: 10px;
+    }
+    .course-content{
+      padding-left: 30px;
+    }
+  }
+  }
+
+  .course-teacher-learning {
+  .course-teacher-learning-gird{
+    display: flex;
+    flex-direction: row;
+    padding: 90px 0;
+    .course-images{
+      
+      width: 300px;
+      height: 250px;
+      background-image: url("https://info.syutsugan.net/wp/wp-content/uploads/2020/05/image1-1024x653.jpg");
+      background-size: cover;
+      background-position: center;
+      box-shadow: 0 0px 40px rgba(177, 229, 248, 0.7);
+      transition: transform 0.3s;
+      border-radius: 10px;
+    }
+    .course-content{
+      padding-right: 30px;
+    }
+  }
+  }
+
+.course-offline-learning {
+  
+  background-color: #f5f5f5;
+  .course-offline-learning-gird{
+    display: flex;
+    flex-direction: row;
+    padding: 90px 0;
+    .course-images{
+      width: 300px;
+      height: 250px;
+      background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNRCqDFHCj5g8w04Ary_V1M02oLiXHS9PcAB8Fq0sBU2HV91ZhUtLSa8MvCYh8zII0ykc&usqp=CAU");
+      background-size: cover;
+      background-position: center;
+      box-shadow: 0 0px 40px rgba(177, 229, 248, 0.7);
+      transition: transform 0.3s;
+      border-radius: 10px;
+    }
+    .course-content{
+      padding-left: 30px;
+    }
+  }
+  }
+
+
+
+ 
